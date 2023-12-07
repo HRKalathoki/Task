@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #ff464d, #f6c90e); /* Set gradient colors */
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.card a{
+    border-radius: 50px;
+}
+
+.card-border {
+    border-width: 1px;
+    border-color: #d8be4c;
+    border-bottom: 3px solid red; /* Set red border color */
+}
+
+.card-title {
+    font-size: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.btn {
+    padding: 0.25rem 1rem;
+    background-color: red;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover{  /* for while place mouseover */
+    background-color: rgb(231, 9, 9);
+    color: white;
+    transform: scale(1.04);
+}
+
